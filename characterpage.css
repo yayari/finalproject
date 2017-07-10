@@ -39,7 +39,7 @@ body{
 }
             
     
-#button1 {
+.button1 {
     text-align: justify;
 }
 
@@ -50,7 +50,21 @@ body{
 #button3 {
     text-align:justify;
 }
+.wrap{
+    position: relative;
+    height: 200px;
+    width: 250px;
+}
 
+.text{
+    visibility: visible;
+    opacity: 0;
+}
+
+image:hover .text {
+    visibility: visible;
+    opacity: 1;
+}
 
 
 
