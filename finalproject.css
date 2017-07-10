@@ -7,7 +7,7 @@
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
-  animation: 
+  animation:  
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
@@ -39,4 +39,42 @@ body {
   from, to { border-color: transparent }
   50% { border-color: dimgrey; }
 }
+/*
+#play {
+    background-color: black;
+    color: cadetblue;
+
+}
+*/
+
+#button1{
+    background-color: white;
+    color: black;
+    border:none;
+    border-radius: 12px;
+    padding: 40px 70px;
+    font-size: 40px;
+}
+#button2 {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    padding: 25px 40px;
+    font-size: 35px;
+}
+#play{
+    text-align: center;
+   
+}
+#instructions{
+    text-align: center;
+}
+    
+#buttons > div {
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+
 
