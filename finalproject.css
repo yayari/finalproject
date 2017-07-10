@@ -39,4 +39,53 @@ body {
   from, to { border-color: transparent }
   50% { border-color: dimgrey; }
 }
+/*
+#play {
+    background-color: black;
+    color: cadetblue;
+
+}
+*/
+
+#button1{
+    background-color: dimgrey;
+    color: white;
+    border:none;
+    border-radius: 12px;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+#button2 {
+    background-color: dimgrey;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 40px;
+}
+#play{
+    text-align: center;
+   
+}
+#instructions{
+    text-align: center;
+}
+    
+#buttons > div {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#header2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: monospace;  
+    overflow: hidden; 
+  border-right: .15em solid dimgrey; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
 
