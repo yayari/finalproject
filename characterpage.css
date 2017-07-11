@@ -50,21 +50,89 @@ body{
 #button3 {
     text-align:justify;
 }
-.wrap{
+
+.container{
+    text-align: center;
+}
+
+.wrap1 {
     position: relative;
-    height: 200px;
-    width: 250px;
+    height:  235px;
+    width: 106px;
+    display: inline-block;
 }
 
-.text{
-    visibility: visible;
+.text1 {
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.8);
+    color: whitesmoke;
+    visibility: hidden;
     opacity: 0;
+    
+    transition: opacity .2s, visibility .2s;
 }
 
-image:hover .text {
+.wrap1:hover .text1 {
     visibility: visible;
-    opacity: 1;
+    opacity: 5;
 }
+
+.wrap2 {
+    position: relative;
+    height:  235px;
+    width: 106px;
+    display: inline-block;
+}
+
+.text2 {
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.8);
+    color: whitesmoke;
+    visibility: hidden;
+    opacity: 0;
+    
+    transition: opacity .2s, visibility .2s;
+}
+
+.wrap2:hover .text2 {
+    visibility: visible;
+    opacity: 5;
+}
+
+.wrap3 {
+    position: relative;
+    height:  274px;
+    width: 115px;
+    display: inline-block;
+}
+
+.text3 {
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.8);
+    color: whitesmoke;
+    visibility: hidden;
+    opacity: 0;
+    
+    transition: opacity .2s, visibility .2s;
+}
+
+.wrap3:hover .text3 {
+    visibility: visible;
+    opacity: 5;
+}
+
 
 
 
