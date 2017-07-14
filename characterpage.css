@@ -105,6 +105,7 @@ body{
 .wrap2:hover .text2 {
     visibility: visible;
     opacity: 5;
+    text-align: center
 }
 
 .wrap3 {
@@ -132,7 +133,9 @@ body{
     visibility: visible;
     opacity: 5;
 }
-
+.button12{
+    text-align: center
+}
 
 
 
