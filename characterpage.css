@@ -60,6 +60,7 @@ body{
     height:  235px;
     width: 106px;
     display: inline-block;
+    padding-right: 250px;
 }
 
 .text1 {
@@ -72,6 +73,8 @@ body{
     color: whitesmoke;
     visibility: hidden;
     opacity: 0;
+    height: 75px;
+    width: 200px;
     
     transition: opacity .2s, visibility .2s;
 }
@@ -86,6 +89,7 @@ body{
     height:  235px;
     width: 106px;
     display: inline-block;
+    padding-right: 150px;
 }
 
 .text2 {
@@ -98,6 +102,8 @@ body{
     color: whitesmoke;
     visibility: hidden;
     opacity: 0;
+    height: 75px;
+    width: 200px;
     
     transition: opacity .2s, visibility .2s;
 }
@@ -108,31 +114,6 @@ body{
     text-align: center
 }
 
-.wrap3 {
-    position: relative;
-    height:  274px;
-    width: 115px;
-    display: inline-block;
-}
-
-.text3 {
-    position: absolute;
-    top: 0; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(128, 128, 128, 0.8);
-    color: whitesmoke;
-    visibility: hidden;
-    opacity: 0;
-    
-    transition: opacity .2s, visibility .2s;
-}
-
-.wrap3:hover .text3 {
-    visibility: visible;
-    opacity: 5;
-}
 .button12{
     text-align: center
 }

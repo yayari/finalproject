@@ -1,5 +1,5 @@
 body {
-    background-image: url(jackbackground.jpg);
+    background-image: url(nyc.jpg);
     background-size: 100% 100%;
 
     height: inherit;
@@ -12,11 +12,12 @@ body {
     position: absolute;
     top: 625px;
     left: 0;
+/*    color: white;*/
 }
 
 .hotspot{
     position: absolute;
-    border: 5px solid red;
+    border: 2px solid red;
 }
 
 .hotspot + * {
@@ -37,21 +38,13 @@ body {
 }
 
 .text{
-    color: white;
+    color: black;
 }
 
-.car{
-    width: 175px;
-    height: 70px;
-    position: absolute;
-    top: 590px;
-    left: 275px;
-}
 
-.boy{
+
+.girl{
     position: absolute;
     top: 575px;
-    left: 600px;
+    left: 1000px;
 }
-
-
